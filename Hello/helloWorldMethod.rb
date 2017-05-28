@@ -4,11 +4,16 @@
 	A method must be defined in Ruby, this is done through the use of 'def'.
 	To close a method, you must use 'end'.
 
-	To use the function, call the method which will then run the function
+	To use the function, call the method which will then run the function.
+
+	The method takes a value of anything and will present the text provided
+	after calling the method.
 =end
 
-def hello
-	puts "Hello World!"
+def hello(anything)
+	puts anything
 end
 
-hello
+hello "This is extra text"
+hello "And I am not an imp"
+hello "Or are you an imp?"
