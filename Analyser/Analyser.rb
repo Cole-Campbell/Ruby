@@ -6,7 +6,7 @@
 	Then the analyser will reverse their first and last name, then display it
 	to the user.
 
-	Once the program is done, using string interpolation and concantenation,
+	Once the program is done, using string interpolation and concantenation
 	the program says it is ending and says Goodbye to the user.
 =end
 
